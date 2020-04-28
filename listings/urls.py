@@ -7,6 +7,5 @@ urlpatterns = [
     path('', views.index, name='listings'),
     path('<int:listing_ind>', views.listing, name='listing'),
     path('search/', views.search, name='search'),
-    
 ]
   
