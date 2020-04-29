@@ -3,7 +3,7 @@
 {% load humanize %}
 
 {% block title %}
-Home
+| Home
 {% endblock %}
 
 {% block content %}
@@ -80,6 +80,10 @@ Home
       </div>
     </div>
   </section>
+
+  <br>
+  <!-- Alerts -->
+  {% include 'partials/alerts.html' %}
 
   <!-- Listings -->
   <section id="listings" class="py-5">
